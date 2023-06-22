@@ -96,3 +96,5 @@ public class CurrentLocationActivity extends AppCompatActivity implements OnMapR
         });
     }
 }
+
+// 10120205 - Raya Adhary - IF5

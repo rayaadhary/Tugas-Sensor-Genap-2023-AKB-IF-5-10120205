@@ -42,3 +42,4 @@ public class CurrentLocationFragment extends Fragment {
 
 }
 
+// 10120205 - Raya Adhary - IF5

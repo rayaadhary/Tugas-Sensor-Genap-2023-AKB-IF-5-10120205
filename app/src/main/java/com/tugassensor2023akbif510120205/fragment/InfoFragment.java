@@ -13,7 +13,6 @@ import androidx.viewpager.widget.ViewPager;
 
 import com.tugassensor2023akbif510120205.R;
 import com.tugassensor2023akbif510120205.adapter.InfoFragmentAdapter;
-import com.tugassensor2023akbif510120205.activity.MainActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,7 +20,6 @@ import java.util.List;
 public class InfoFragment extends Fragment {
     private ViewPager viewPager;
     private PagerAdapter pagerAdapter;
-    private MainActivity mainActivity;
 
     @Nullable
     @Override
@@ -37,9 +35,6 @@ public class InfoFragment extends Fragment {
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
-
-        mainActivity = (MainActivity) getActivity();
-        mainActivity.getSupportActionBar().hide();
 
         List<Fragment> list = new ArrayList<>();
         list.add(new InfoFragment1());
